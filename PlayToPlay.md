@@ -3,6 +3,7 @@
 
 ¡Hola! Soy la mente detrás de **PlayToPlay**. Este proyecto nace de mi pasión por la tecnología, el hardware de alto rendimiento y el diseño visual. Como estudiante del grado medio de **Sistemas Microinformáticos y Redes (SMR)** y de un máster de especialización en desarrollo, he querido crear algo que fusione lo técnico con lo creativo.
 
+PlayToPlay Web: https://playtoplay.netlify.app/#inicio
 ---
 
 ## 👤 Perfil Profesional

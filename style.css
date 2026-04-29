@@ -1,0 +1,246 @@
+/* Configuración General */
+:root {
+    --primary: #00d4ff;
+    --secondary: #0056b3;
+    --dark: #0d1117;
+    --light: #f0f6fc;
+    --gray: #161b22;
+    --accent: #2ecc71;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--dark);
+    color: var(--light);
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header & Nav */
+header {
+    background: rgba(13, 17, 23, 0.95);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid var(--primary);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 45px;
+    border-radius: 5px;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--primary);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--light);
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--primary);
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('src/PlayToPlay_Fachada.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    letter-spacing: 8px;
+    color: var(--primary);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: var(--primary);
+    color: var(--dark);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+}
+
+#hardware p {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Secciones */
+.section {
+    padding: 100px 0;
+}
+
+.bg-dark {
+    background-color: var(--gray);
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.split {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
+
+.image-box {
+    flex: 1;
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
+/* Grid & Cards */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: var(--dark);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #30363d;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Torneo Background */
+.torneo-bg {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('src/PlayToPlay.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.info-card {
+    background: rgba(0, 212, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    border-radius: 20px;
+    border: 2px solid var(--primary);
+    text-align: center;
+}
+
+/* Reflection Section */
+.reflection {
+    background: #0d1117;
+}
+
+.reflection-text {
+    max-width: 800px;
+    margin: auto;
+    font-style: italic;
+    background: var(--gray);
+    padding: 40px;
+    border-radius: 10px;
+    border-left: 5px solid var(--primary);
+}
+
+.reflection-text p {
+    margin-bottom: 20px;
+}
+
+.signature {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid #30363d;
+}
+
+footer .copyright {
+    text-align: center;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .split { flex-direction: column; }
+    .hero h1 { font-size: 3rem; }
+    nav ul { display: none; } /* En una web real aquí iría un menú hamburguesa */
+}

@@ -29,9 +29,7 @@ Todo el diseño se ha puesto a prueba en **Cisco Packet Tracer**. En la document
 
 ## 📁 Contenido del Repositorio
 En esta carpeta encontrarás:
-* 📄 **Memoria del proyecto (Word/PDF):** Explicación detallada de cada paso y justificación técnica.
-* 📊 **Esquema de Red:** Imágenes de la topología final y el direccionamiento.
-* ⚙️ **Pruebas de Funcionamiento:** Capturas de las configuraciones y los pings exitosos.
+* 📄 **Memoria del proyecto (Word/PDF):** Explicación detallada de cada paso y justificación técnica con esquemas de red que incluyen imágenes de la topología y el direccionamiento y capturas de pruebas del funcionamiento.
 * 💻 **Archivo .pkt:** El archivo de simulación original de Cisco Packet Tracer.
 
 ---

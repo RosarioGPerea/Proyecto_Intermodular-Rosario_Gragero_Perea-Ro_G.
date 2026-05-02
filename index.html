@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayToPlay | Gaming & Tech Solutions</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -17,11 +18,12 @@
             <nav>
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#proyecto">Proyecto</a></li>
+                    <li><a href="#proyecto">Visión</a></li>
                     <li><a href="#hardware">Hardware</a></li>
+                    <li><a href="#mantenimiento">Soporte</a></li>
                     <li><a href="#bbdd">Gestión</a></li>
                     <li><a href="#torneo">Torneos</a></li>
-                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#sobre-mi">Perfil</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,18 +32,26 @@
     <section id="inicio" class="hero">
         <div class="hero-content">
             <h1>PLAY TO PLAY</h1>
-            <p>La convergencia total entre hardware, gestión y competición eSports.</p>
-            <a href="#proyecto" class="btn">Explorar Proyecto</a>
+            <p>Infraestructura de alto rendimiento y soluciones tecnológicas integrales.</p>
+            <div class="hero-btns">
+                <a href="#proyecto" class="btn">Saber más</a>
+                <a href="#torneo" class="btn btn-outline">Ver Próximo Torneo</a>
+            </div>
         </div>
     </section>
 
     <section id="proyecto" class="section">
         <div class="container">
-            <h2>Visión Intermodular</h2>
+            <h2 class="section-title">Visión Intermodular</h2>
             <div class="split">
                 <div class="text">
-                    <p>PlayToPlay nace como un ecosistema integral para el sector gaming. No es solo una tienda de informática; es un centro de alto rendimiento diseñado bajo la metodología del ciclo SMR (Sistemas Microinformáticos y Redes).</p>
-                    <p>Nuestro enfoque une tres pilares fundamentales: el <strong>Montaje de Equipos (MME)</strong>, la <strong>Gestión de Bases de Datos (BBDD)</strong> y el <strong>Soporte Técnico de Torneos</strong>.</p>
+                    <p>PlayToPlay surge como un punto de encuentro para la comunidad gamer, combinando la venta de hardware premium con la experiencia de competición real. Nuestro proyecto se fundamenta en la interconexión técnica:</p>
+                    <ul class="check-list">
+                        <li><strong>MME:</strong> Montaje de equipos a medida y optimización de hardware.</li>
+                        <li><strong>RL Y SOM:</strong> Configuración de sistemas operativos y redes de baja latencia.</li>
+                        <li><strong>BBDD:</strong> Estructura relacional para la gestión de stock, clientes y eventos.</li>
+                        <li><strong>IPE:</strong> Planificación de negocio y desarrollo de identidad profesional.</li>
+                    </ul>
                 </div>
                 <div class="image-box">
                     <img src="src/PlayToPlay.png" alt="Interior de PlayToPlay">
@@ -52,43 +62,78 @@
 
     <section id="hardware" class="section bg-dark">
         <div class="container">
-            <h2>Configuración Técnica (MME)</h2>
-            <p>Seleccionamos componentes de vanguardia para garantizar la máxima estabilidad en competición.</p>
+            <h2 class="section-title">Hardware de Vanguardia</h2>
+            <p class="section-intro">Diferenciamos estratégicamente nuestros equipos para optimizar la inversión y maximizar el rendimiento competitivo.</p>
             <div class="grid">
                 <div class="card">
-                    <img src="src/Caja_Gaming.jpg" alt="Equipo Gaming">
-                    <h3>Gama Pro eSports</h3>
-                    <ul>
-                        <li>Ryzen 7 de alto rendimiento</li>
-                        <li>Chasis MSI MAG FORGE 100M</li>
-                        <li>Fuente MSI 650W 80 Plus Bronze</li>
-                        <li>Optimización de SO para Input Lag</li>
-                    </ul>
+                    <div class="card-img-container">
+                        <img src="src/Caja_Gaming.jpg" alt="Equipo Gaming Ultra">
+                    </div>
+                    <div class="card-content">
+                        <h3>Gama Ultra eSports</h3>
+                        <span class="badge">Alto Rendimiento</span>
+                        <ul>
+                            <li><strong>CPU:</strong> AMD Ryzen 9 9950X3D</li>
+                            <li><strong>Placa:</strong> Gigabyte X870E AORUS Elite WiFi7</li>
+                            <li><strong>RAM:</strong> Corsair Dominator Titanium 64GB DDR5</li>
+                            <li><strong>SSD:</strong> Samsung 990 Pro NVMe Gen5</li>
+                            <li><strong>Refrigeración:</strong> Corsair iCUE LINK Titan 360 RX</li>
+                        </ul>
+                    </div>
                 </div>
+
                 <div class="card">
-                    <img src="src/Caja_Oficina.jpg" alt="Equipo de Oficina">
-                    <h3>Gama Gestión</h3>
-                    <p>Potencia fluida para la administración del negocio.</p>
-                    <ul>
-                        <li>CPU: AMD Ryzen 7 5700G</li>
-                        <li>RAM: 16GB Corsair Vengeance</li>
-                        <li>SSD: Samsung 980 NVMe 1TB</li>
-                    </ul>
+                    <div class="card-img-container">
+                        <img src="src/Caja_Oficina.jpg" alt="Equipo de Gestión">
+                    </div>
+                    <div class="card-content">
+                        <h3>Equipos de Gestión</h3>
+                        <span class="badge badge-blue">Productividad</span>
+                        <ul>
+                            <li><strong>CPU:</strong> AMD Ryzen 7 5700G (Radeon Graphics)</li>
+                            <li><strong>RAM:</strong> 16GB Corsair Vengeance LPX DDR4</li>
+                            <li><strong>Placa:</strong> ASUS Prime B550M-A WIFI II</li>
+                            <li><strong>Caja:</strong> MSI MAG FORGE 100M</li>
+                            <li><strong>Fuente:</strong> MSI MAG A650BN 80 Plus Bronze</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="bbdd" class="section">
+    <section id="mantenimiento" class="section">
         <div class="container">
-            <h2>Gestión y Base de Datos</h2>
+            <h2 class="section-title">Soporte y Fiabilidad</h2>
+            <div class="split reverse">
+                <div class="text">
+                    <h3>Mantenimiento Preventivo</h3>
+                    <p>En PlayToPlay, la sostenibilidad es clave. Realizamos mantenimientos periódicos para garantizar que la infraestructura técnica esté siempre a la altura de las expectativas.</p>
+                    <h3>Infraestructura de Red</h3>
+                    <p>Nuestra red local está diseñada con tecnología Gigabit y WiFi 6, gestionada para minimizar el tráfico innecesario y asegurar pings mínimos (< 5ms) durante las competiciones de eSports.</p>
+                </div>
+                <div class="image-box">
+                    <img src="src/PlayToPlay_Mantenimiento.png" alt="Mantenimiento Técnico">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bbdd" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Gestión Inteligente</h2>
             <div class="split">
                 <div class="image-box">
-                    <img src="src/PlayToPlay_Diagrama.png" alt="Diagrama BBDD">
+                    <img src="src/PlayToPlay_Diagrama.png" alt="Diagrama de Base de Datos">
                 </div>
                 <div class="text">
-                    <h3>El cerebro de la tienda</h3>
-                    <p>Hemos desarrollado un sistema relacional que conecta el stock de piezas con los montajes realizados y las ventas a clientes. Esta estructura asegura que la disponibilidad de hardware para los torneos esté siempre garantizada y automatizada.</p>
+                    <h3>El Cerebro del Negocio</h3>
+                    <p>Nuestra base de datos relacional conecta cada componente del inventario con las ventas y los torneos. Gracias a este esquema, logramos:</p>
+                    <ul class="check-list">
+                        <li>Control de stock en tiempo real.</li>
+                        <li>Vinculación de premios de torneos con el catálogo de tienda.</li>
+                        <li>Registro automatizado de participantes y empleados responsables.</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -97,28 +142,36 @@
     <section id="torneo" class="section torneo-bg">
         <div class="container">
             <div class="info-card">
-                <h2>Torneo Rocket League (3vs3)</h2>
-                <p><strong>Ubicación:</strong> Aula de Informática 2 - IES Techzone</p>
-                <p><strong>Fechas:</strong> 10, 11 y 12 de marzo</p>
-                <p>Infraestructura técnica de red y hardware gestionada íntegramente por PlayToPlay.</p>
+                <span class="badge">Evento Presencial</span>
+                <h2>Torneo Rocket League 3vs3</h2>
+                <div class="event-details">
+                    <p><strong>Lugar:</strong> Zona de Eventos</p>
+                    <p><strong>Fechas:</strong> 10, 11 y 12 de junio</p>
+                    <p><strong>Inscripciones:</strong> Del 3 al 7 de junio</p>
+                </div>
+                <p>Equipos de alto rendimiento, periféricos gaming y premios directos de nuestra tienda.</p>
+                <a href="#" class="btn">Inscribirse ahora</a>
             </div>
         </div>
     </section>
 
     <section id="sobre-mi" class="section reflection">
         <div class="container">
-            <h2>Descripción de lo Aprendido</h2>
+            <h2 class="section-title">Perfil Profesional</h2>
             <div class="reflection-text">
-                <p>"Durante el desarrollo de este proyecto, lo más valioso para mí ha sido adquirir una visión intermodular. Al principio, veía cada asignatura como un compartimento estanco, pero PlayToPlay me ha obligado a entender que todo está conectado: una mala elección de un componente en Montaje afecta directamente al stock en la Base de Datos, y ese hardware necesita una configuración de Sistema Operativo muy concreta para rendir en un torneo."</p>
-                <p>"Lo que mejor se me ha dado ha sido la parte de diseño y visualización de la tienda, además de la selección técnica de los componentes, donde he podido aplicar mis conocimientos de hardware. Por otro lado, el mayor reto ha sido el equilibrio entre la potencia técnica y la viabilidad del negocio. Es fácil querer montar lo mejor de lo mejor, pero lo difícil es asegurar que esa inversión sea rentable y lógica para una empresa real."</p>
-                <p>"De cara al futuro, este proyecto me ha reafirmado en mi deseo de seguir explorando la mezcla entre tecnología y arte. Mis próximos pasos serán profundizar en el diseño de interfaces (UI/UX) para que la gestión de proyectos como este sea, además de potente, visualmente impecable."</p>
+                <p class="profile-intro"><strong>Rosario Gragero Perea</strong> | Estudiante de SMR y Especialista en Programación.</p>
+                <p>"Durante el desarrollo de este proyecto, lo más valioso para mí ha sido adquirir una visión intermodular. Todo está conectado: una mala elección de un componente en Montaje afecta directamente al stock en la Base de Datos, y ese hardware necesita una configuración de SO muy concreta para rendir en un torneo."</p>
+                <p>"De cara al futuro, este proyecto me ha reafirmado en mi deseo de seguir explorando la mezcla entre tecnología y arte. Mis próximos pasos serán profundizar en el <strong>diseño de interfaces (UI/UX)</strong> para que la gestión de proyectos como este sea visualmente impecable."</p>
                 <p class="signature">— Rosario Gragero Perea (Ro G.)</p>
             </div>
         </div>
     </section>
 
     <footer>
-        <p class="copyright">&copy; 2026 PlayToPlay - Proyecto Intermodular SMR - Rosario Gragero Perea - Todos los derechos reservados.</p>
+        <div class="container">
+            <p class="copyright">&copy; 2026 PlayToPlay - Proyecto Intermodular SMR - Rosario Gragero Perea</p>
+            <p class="footer-tag">Hardware | Redes | Gestión | eSports</p>
+        </div>
     </footer>
 
 </body>

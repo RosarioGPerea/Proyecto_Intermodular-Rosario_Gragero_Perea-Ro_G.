@@ -8,7 +8,7 @@ El objetivo principal ha sido crear un entorno de trabajo profesional. He config
 ## 🛠️ Puesta a punto del Sistema
 
 ### Instalación y Optimización
-He realizado una **instalación limpia** de Windows 11 Pro, prestando especial atención al particionado del disco para asegurar un arranque veloz. Tras la instalación, he renombrado cada equipo (ej. `PUESTO-PREMIUM-01`) para que Eme pueda identificarlos fácilmente en la red local que diseñamos anteriormente.
+He realizado una **instalación limpia** de Windows 11 Pro, prestando especial atención al particionado del disco para asegurar un arranque veloz. Tras la instalación, he renombrado cada equipo cono en el Gaming_01 para que Eme pueda identificarlos fácilmente en la red local que diseñamos anteriormente.
 
 ### Gestión de Usuarios y Roles
 Para que la tienda funcione con orden, he configurado diferentes perfiles:

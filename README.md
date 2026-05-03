@@ -8,7 +8,7 @@
 
 **PlayToPlay** no es solo una simulación de una tienda de informática; es un ecosistema diseñado para unir el mundo del hardware de alto rendimiento con la gestión empresarial y la competición de eSports. El objetivo principal ha sido crear una infraestructura técnica real, escalable y visualmente coherente, donde cada módulo del ciclo formativo aporta una pieza clave al rompecabezas.
 
-🔗 **[🌐 Visita la Web Oficial de PlayToPlay aquí](https://playtoplay.netlify.app/)**
+🔗 **[🌐 >> Visita la Web Oficial de PlayToPlay aquí <<](https://playtoplay.netlify.app/)**
 
 ---
 

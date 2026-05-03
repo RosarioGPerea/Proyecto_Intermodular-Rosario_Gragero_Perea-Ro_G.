@@ -8,14 +8,14 @@
 
 **PlayToPlay** no es solo una simulación de una tienda de informática; es un ecosistema diseñado para unir el mundo del hardware de alto rendimiento con la gestión empresarial y la competición de eSports. El objetivo principal ha sido crear una infraestructura técnica real, escalable y visualmente coherente, donde cada módulo del ciclo formativo aporta una pieza clave al rompecabezas.
 
-🔗 **[🌐 Visita la Web Oficial del Proyecto aquí](https://playtoplay.netlify.app/)**
+🔗 **[🌐 Visita la Web Oficial de PlayToPlay aquí](https://playtoplay.netlify.app/)**
 
 ---
 
 ## 🚀 El Concepto: PlayToPlay
 
 PlayToPlay nace de la necesidad de ofrecer un espacio 360° para el gamer. Dividimos el negocio en dos grandes áreas:
-1.  **Zona Comercial:** Venta de periféricos y hardware montado a medida bajo demanda.
+1.  **Zona Comercial:** Venta de videojuegos, periféricos y hardware montado a medida bajo demanda.
 2.  **Espacio Premium:** Un área de alto rendimiento equipada con la última tecnología para torneos presenciales (como nuestro evento de *Rocket League*), donde la latencia mínima y la potencia extrema son los protagonistas.
 
 ---
@@ -59,13 +59,13 @@ Mi meta al finalizar mis estudios es especializarme en **Diseño de Interfaces (
 
 | Fachada del Local | Interior / Zona Premium |
 | :---: | :---: |
-| ![Fachada](src/PlayToPlay_Fachada.png) | ![Interior](src/PlayToPlay.png) |
+| ![Interior](src/PlayToPlay.png) | ![Fachada](src/PlayToPlay_Fachada.png) |
 
 ---
 
-> "Durante el desarrollo de PlayToPlay, lo más valioso ha sido entender que todo está conectado: una mala elección de hardware afecta al stock en la Base de Datos, y necesita un Sistema Operativo configurado a medida para brillar en competición."
+> "Durante el desarrollo de PlayToPlay, lo más valioso ha sido entender que todo está conectado: una mala elección de hardware afecta al stock en la Base de Datos, y necesita un Sistema Operativo y una red configurados a medida para brillar en competición."
 
 ---
 <p align="center">
-  Rosario Gragero Perea (Ro G.) - 2026
+  1º SMR - Rosario Gragero Perea (Ro G.) - 2026
 </p>

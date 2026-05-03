@@ -57,7 +57,7 @@ Mi meta al finalizar mis estudios es especializarme en **Diseño de Interfaces (
 
 ## 📸 Capturas del Proyecto
 
-| Fachada del Local | Interior / Zona Premium |
+| Interior | Fachada del Local |
 | :---: | :---: |
 | ![Interior](src/PlayToPlay.png) | ![Fachada](src/PlayToPlay_Fachada.png) |
 
